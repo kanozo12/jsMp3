@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>뮤직 플레이어</title>
-    <script src="app.js"></script>
     <script src="Player.js"></script>
     <script src="PlayList.js"></script>
+    <script src="app.js"></script>
     <link rel="stylesheet" href="app.css">
 </head>
 
@@ -28,20 +28,20 @@
                 <div class="progress">
                     <div class="bar"></div>
                 </div>
-                <audio src="./example.mp3"></audio>
+                <audio src=""></audio>
                 <div class="control">
                     <div class="control-btn">
                         <button class="play">재생</button>
                         <button class="stop">정지</button>
                     </div>
                     <div class="mode-btn">
-                        <input type="radio" name="repeat" class="repeat-btn" value="0" checked> 반복없음
-                        <input type="radio" name="repeat" class="repeat-btn" value="1"> 한곡반복
-                        <input type="radio" name="repeat" class="repeat-btn" value="2"> 리스트반복
+                        <input type="radio" name="repeat" class="repeat-btn" value="0" checked>반복없음
+                        <input type="radio" name="repeat" class="repeat-btn" value="1">한곡반복
+                        <input type="radio" name="repeat" class="repeat-btn" value="2">리스트반복
                     </div>
                 </div>
-            </div>
-            <!-- end of player -->
+            </div> <!-- end of player -->
+
             <div id="playList">
                 <ul class="item-list">
                     <li class="item active">sample4.mp3</li>
@@ -56,10 +56,8 @@
             </div> <!-- end of playList -->
 
         </div> <!-- end of main-row -->
+    </div> <!-- end of container -->
 
-    </div> <!-- end of container  -->
-    
 </body>
 
 </html>
-
