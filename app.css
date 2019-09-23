@@ -77,3 +77,7 @@ ul {
 #audioFile {
     visibility: hidden;
 }
+
+.visualizer {
+    height: 300px;
+}
