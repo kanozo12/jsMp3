@@ -85,9 +85,9 @@ ul {
 
 #context {
     position: fixed;
+    top:0;
+    left:0;
     visibility: hidden;
-    top: 0;
-    left: 0;
     width:100px;
     background-color: #fff;
     border-radius:5px;
@@ -97,7 +97,7 @@ ul {
 
 #context > li:hover {
     background-color: #3f3fff;
-    color: #fff;
+    color:#fff;
 }
 
 #context > li {
